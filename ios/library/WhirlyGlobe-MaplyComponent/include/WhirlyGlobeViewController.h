@@ -775,4 +775,6 @@
  */
 - (void)requirePanGestureRecognizerToFailForGesture:(UIGestureRecognizer *__nullable)other;
 
+- (void)updateGlobeView;
+
 @end

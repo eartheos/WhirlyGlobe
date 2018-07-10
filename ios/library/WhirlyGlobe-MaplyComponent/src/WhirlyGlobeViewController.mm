@@ -1488,6 +1488,9 @@ using namespace WhirlyGlobe;
         [other requireGestureRecognizerToFail:panDelegate.gestureRecognizer];
 }
 
+- (void)updateGlobeView {
+    [globeView runViewUpdates];
+}
 
 #pragma mark - WhirlyGlobeAnimationDelegate
 
